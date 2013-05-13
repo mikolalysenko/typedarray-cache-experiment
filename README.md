@@ -33,5 +33,10 @@ An experiment comparing different caching strategies for typed arrays.  The firs
 
 ## Conclusion
 
-Caching without preallocating typed arrays is not really worth it.
+Caching without preallocating typed arrays is not really worth it.  So there are really only two credible choices:
+
+* preallocating arrays in batches
+* preallocating a pool for each typed array
+
+The batch preallocation is faster, has better overall cache performance and uses less memory, but the separate pool per typed array has a simpler interface.  It isn't clear to me what the best solution here is.  Even though it is slower, I think that the array pool has a lot going for it AND has the advantage that it could easily be adapted to work with arrays that are allocated outside the main pool of objects (for example, caching typed arrays used for communication with web workers).
 
