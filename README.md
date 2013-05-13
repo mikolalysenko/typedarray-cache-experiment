@@ -23,6 +23,13 @@ An experiment comparing different caching strategies for typed arrays.  The firs
       real	0m0.335s
       user	0m0.327s
       sys	0m0.009s
+      
+    $ time node array_test.js
+
+      real	0m0.545s
+      user	0m0.537s
+      sys	0m0.009s
+
 
 ## Conclusion
 
