@@ -1,0 +1,22 @@
+{
+  "name": "typedarray-cache-experiment",
+  "version": "0.0.0",
+  "description": "TypedArray caching experiment",
+  "main": "buffer_test.js",
+  "dependencies": {
+    "bit-twiddle": "~0.0.2",
+    "dup": "~0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/typedarray-cache-experiment.git"
+  },
+  "author": "Mikola Lysenko",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "1caec5e70d52911a62930b6011b041e7449d1274"
+}
