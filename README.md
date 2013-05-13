@@ -13,10 +13,10 @@ An experiment comparing different caching strategies for typed arrays.  The firs
       sys	0m0.097s
       
     $ time node buffer_test.js
-
-      real	0m11.534s
-      user	0m11.384s
-      sys	0m0.212s
+    
+      real	0m6.974s
+      user	0m6.974s
+      sys	0m0.036s
 
     $ time node prealloc_test.js a
 
@@ -26,5 +26,5 @@ An experiment comparing different caching strategies for typed arrays.  The firs
 
 ## Conclusion
 
-Caching without preallocating typed arrays is not worth it.
+Caching without preallocating typed arrays is not really worth it.
 

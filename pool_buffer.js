@@ -5,7 +5,7 @@ var dup = require("dup")
 var POOL = dup([32,0])
 
 function free(buffer) {
-  POOL[bits.log2(buffer.length)].push(buffer)
+  POOL[bits.log2(buffer.byteLength)].push(buffer)
 }
 exports.free = free
 
