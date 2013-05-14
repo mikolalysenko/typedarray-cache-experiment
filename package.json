@@ -5,7 +5,8 @@
   "main": "buffer_test.js",
   "dependencies": {
     "bit-twiddle": "~0.0.2",
-    "dup": "~0.0.0"
+    "dup": "~0.0.0",
+    "typedarray-pool": "~0.1.0"
   },
   "devDependencies": {},
   "scripts": {
